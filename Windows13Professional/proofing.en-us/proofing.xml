@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_MODULUS=xmYOF08KzV0VkE9iNWtfyb+DeJ43mVD9xhvTAUZkKl26s4RCWgHmVMR3XJi9cw0zE2LTdUHSc64xdZYGfy9xPnVsMD4YGXEznaLYV55nt9vcNqxntH/TDIsE20KAU3ujySGtNB1bYm15Re/osVk6TPm2VCV4WyOI1AzngRjfazw=-->
+<!--_SIG=etclwaaAwar52hAXSFm9zIMKuWVw3Jme59l99xt9Ksh7UsIXHdbvv7MFiO4mBwUUReVU1mojnU+yoP43ucNQ7MS66CcAdtz1hiYKM45YkfcSDy7Sf2wja9XQT6ipXjfW44ywWH0tbCCfjQI64Wk54hAXf6Xl646zk/BChnz3qg0=-->
+<Package Id="Proofing.en-us" Type="MSI" Path="Proofing.MSI" Version="1.0" ProductCode="{90150000-002C-0409-0000-0000000FF1CE}" MSIVersion="15.0.4569.1506" ProductLanguage="1033" Platform="x86">
+	<Feature Id="SetupXmlFiles" Cost="468">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="MsoInstalledPackagesScopedIntl_1033" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="SetupControllerFiles" Cost="468">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="Gimme_OnDemandData" Cost="0">
+		<OptionRef Id="Gimme_OnDemandData"/>
+	</Feature>
+</Package>
